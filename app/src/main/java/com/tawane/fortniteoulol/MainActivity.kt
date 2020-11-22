@@ -29,11 +29,41 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getList() {
-        nameList.add(ItemList("jinx", R.drawable.img_jynxperso1, "Criminosa, impulsiva e maníaca."))
-        nameList.add(ItemList("Akali", R.drawable.img_akaliperso2, "Perigosa, assassina e sozinha."))
-        nameList.add(ItemList(name = "Miss Fortune", image = R.drawable.img_missperso3, subTitulo = "Impiedosa, vingativa e sedutora"))
-        nameList.add(ItemList(name = "Raven", image = R.drawable.img_ravenperso4, subTitulo = "Exilado, guerreiro e sombrio"))
-        nameList.add(ItemList(name = "Fable", image = R.drawable.img_fableperso5, subTitulo = "Simpática, doce e vulnerável"))
+        nameList.add(
+            ItemList(
+                name = "jinx",
+                image = R.drawable.img_jynxperso1,
+                subTitulo = "Criminosa, impulsiva e maníaca."
+            )
+        )
+        nameList.add(
+            ItemList(
+                name = "Akali",
+                image = R.drawable.img_akaliperso2,
+                subTitulo = "Perigosa, assassina e sozinha."
+            )
+        )
+        nameList.add(
+            ItemList(
+                name = "Miss Fortune",
+                image = R.drawable.img_missperso3,
+                subTitulo = "Impiedosa, vingativa e sedutora"
+            )
+        )
+        nameList.add(
+            ItemList(
+                name = "Raven",
+                image = R.drawable.img_ravenperso4,
+                subTitulo = "Exilado, guerreiro e sombrio"
+            )
+        )
+        nameList.add(
+            ItemList(
+                name = "Fable",
+                image = R.drawable.img_fableperso5,
+                subTitulo = "Simpática, doce e vulnerável"
+            )
+        )
     }
 
 }

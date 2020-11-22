@@ -13,7 +13,7 @@ import com.tawane.fortniteoulol.model.ItemList
 class ListaAdapter(nameList: List<ItemList>, private var ctx: Context) :
     RecyclerView.Adapter<ListaAdapter.ViewHolder>() {
 
-    private var nameList: List<ItemList> = ArrayList<ItemList>()
+    private var nameList: List<ItemList> = ArrayList()
 
     init {
         this.nameList = nameList
